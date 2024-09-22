@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    background: linear-gradient(#300759, #cf9bb5);
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    gap: 1rem;
+    padding: 6rem 1rem;
+}
+
+#root div{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+#root button{
+    all: unset;
+    padding: .5rem .8rem;
+    margin: .5rem;
+    background-color: rgba(0, 0, 0, 0.485);
+    border-radius: .3rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .4s;
+    width: fit-content;
+}
+
+#root .conversationBtns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#root .conversationBtns button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    letter-spacing: .1rem;
+}
+
+#root div div{
+    display: flex;
+    align-items: center;
+}
+
+#root  button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.wholeChat{
+    all: unset;
+    display: block;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
