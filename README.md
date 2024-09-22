@@ -1,3 +1,4 @@
-## The main objective of this project is to improve English for student with non English background
+# AI Chatbot for Improved Communication
 
-In this project i used gemini-1.5-flash model for communication. user can speak and the request is going to gemini using API. to recognize the speech of a user i used speechRecognition.
+## Project Description
+This project is an AI chatbot built using **Gemini-1.5-Flash**, aimed at improving communication by enabling intelligent and interactive conversations. It leverages the capabilities of the Gemini model to understand user inputs and provide coherent, real-time responses.
